@@ -16,20 +16,23 @@ This repository implements a multi-stage **Mendelian randomization (MR)** pipeli
 ---
 
 ## Directory Structure
+## Directory Structure
+
+```bash
 drug_mr_project/
 ├── data/
-│   ├── drug_a/                   
+│   ├── drug_a/
 │   │   ├── strategy_a
-│   │   │   ├──raw
-│   │   │       └── # Contains CSVs for each gene's QTL data, often separated by drug or strategy
+│   │   │   ├── raw/
+│   │   │   │   └── # Contains CSVs for each gene's QTL data, often separated by drug or strategy
 │   │   │   ├── processed/
-│   │   │      └── # Final sets of SNPs after full QC, used for MR
+│   │   │   │   └── # Final sets of SNPs after full QC, used for MR
 ├── results/
-│   └── figures/                # Where plots go
-    └── tables/                 # tables 
+│   ├── figures/               # Where plots go
+│   └── tables/                # Where tables go
 ├── config/
-│   ├── pipeline_params.yaml    # global pipeline parameters (p-value thresholds, r^2, distances, etc)
-│   ├── drug_confounders.yaml   # per-drug confounder sets for phenoscanner queries
+│   ├── pipeline_params.yaml   # global pipeline parameters (p-value thresholds, r^2, distances, etc)
+│   ├── drug_confounders.yaml  # per-drug confounder sets for phenoscanner queries
 ├── src/
 │   ├── qc/
 │   │   ├── filter_snps.py
@@ -44,9 +47,9 @@ drug_mr_project/
 │   ├── utils/
 │   │   └── i_o.py
 │   └── pipeline.py
-├── environment.yml            
-├── README.md                  # This file
-
+├── environment.yml
+├── README.md
+```
 
 ## Configuration
 
