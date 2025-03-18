@@ -15,7 +15,7 @@ This repository implements a multi-stage **Mendelian randomization (MR)** pipeli
 
 ---
 
-## Directory Structure
+
 ## Directory Structure
 
 ```bash
