@@ -1,0 +1,6 @@
+,regulation stage,GO category PANTHER DB,GO group p-val,most enriched genes
+2,Genes upregulated in metestrus (low E2) stage,"Lipid, fatty acid and cholesterol metabolism",5.10X10^8,CYP2R1
+18,Genes upregulated in metestrus (low E2) stage,Detoxification,1.2*10^5,GSTM3
+20,Genes upregulated in metestrus (low E2) stage,Detoxification,1.2*10^7,GSTA2
+23,Genes upregulated in metestrus (low E2) stage,Detoxification,1.2*10^10,ESR1
+26,Genes upregulated in metestrus (low E2) stage,Detoxification,1.2*10^13,GSTM1
