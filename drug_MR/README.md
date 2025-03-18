@@ -95,8 +95,11 @@ This **QC** stage identifies valid SNP instruments for each `(drug, strategy, ge
 ## Contact 
 For questions or collaboration requests:
 
-Name: Robert Campbell
-Email: h.robert.campbell@gmail.com
-Institution: Nuffield Department of Population Health, Oxford University
+**Name**: Robert Campbell
+
+**Email**: h.robert.campbell@gmail.com
+
+**Institution**: Nuffield Department of Population Health, Oxford University
+
 We welcome suggestions or pull requests.
-   
+
